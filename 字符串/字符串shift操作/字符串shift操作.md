@@ -2,11 +2,15 @@
 
 #### 题目
 假设字符串为x为byebyebye，对字符串的shift操作定义如下：
+
 shift(x,0) = byebyebye
+
 shift(x,1) = yebyebyeb
+
 shift(x,2) = byebyebye
 
 现在给一个长度为n的字符串，不断进行上述shift操作，求shift操作前后字符串相等的次数，即：
+
 shift(x,i) = shift(x, i+1)
 
 #### 分析
