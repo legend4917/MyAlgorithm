@@ -2,6 +2,7 @@
 
 #### 题目
 假设字符串为x为byebyebye，对字符串的shift操作定义如下：
+
 shift(x,0) = byebyebye
 
 shift(x,1) = yebyebyeb
