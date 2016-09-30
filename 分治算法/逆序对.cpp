@@ -40,7 +40,7 @@ void mergesort(int start, int end){
 int main(){
 	int n;
 	cin >> n;
-	srand((int)time(0));
+	srand((int)time(0));	// 设置随机数种子 
 	for(int i=0; i<n; i++){		// 生成n个10000以内的随机数 
 		a[i] = Random(10000);
 		cout << a[i] << " ";
